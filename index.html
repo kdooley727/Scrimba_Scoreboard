@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="module5.css">
+</head>
+<body>
+    <!-- <img src="beer.jpg" alt="beer">
+    <p>Draught beer</p>
+    <button onclick="purchase()">Purchase - $4.99</button>
+    <p id="error"></p>
+    <br>
+    <span id="num1-el">Num1</span>
+    <span id="num2-el">Num2</span>
+    <br>
+    <button onclick="add()">Add</button>
+    <button onclick="subtract()">Subtract</button>
+    <button onclick="divide()">Divide</button>
+    <button onclick="multiply()">Multiply</button>
+    <br>
+    <span id="sum-el">Sum: </span>*/ -->
+    <br>
+    <div class="container">
+        <h1 class="text"></h1>
+        <div class="scoreboard">
+            <button id="reset" onclick="reset()">Reset</button>
+            <div class="team-container">
+                <h3 class="text">HOME</h3>
+                <div class="one">
+                    <p class="pts" id="homeScore">0</p>
+                </div>
+                <div class="two">
+                    <button id="one-pt" onclick="homeAddPoint()">+1</button>
+                    <button id="two-pts" onclick="homeAddTwoPoints()">+2</button>
+                    <button id="three-pts" onclick="homeAddThreePoints()">+3</button>
+                </div>
+            </div>
+            <div class="team container">
+                <h3 class="text">GUEST</h3>
+                <div class="one">
+                    <p class="pts" id="guestScore">0</p>
+                </div>
+                <div class="two">
+                    <button id="one-pt" onclick="guestAddOnePoint()">+1</button>
+                    <button id="two-pts" onclick="guestAddTwoPoints()">+2</button>
+                    <button id="three-pts" onclick="guestAddThreePoints()">+3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="module5.js"></script>
+</body>
+</html>

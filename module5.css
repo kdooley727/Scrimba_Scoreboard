@@ -1,0 +1,132 @@
+/*body {
+    background: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+img {
+    width: 200px;
+    display: block;
+}
+
+p {
+    color: red;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+button {
+    background: green;
+    color: black;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+span {
+    color: white;
+    border-bottom: 2px solid blueviolet;
+    padding: 4px;
+}
+
+#error {
+    color: yellow;
+    font-weight: 200;
+}*/
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2153bf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 24px;
+    padding-bottom: 60px;
+}
+
+.container {
+    display: grid;
+    place-content: center;
+    min-height: 50vh;
+}
+
+.text {
+    text-transform: uppercase;
+    color: #21bf26;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #2153bf;
+    border: 7px solid white;
+    outline: 10px solid #0c0c0c;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.one {
+    position: relative;
+    width: 18em;
+    height: 10em;
+
+    margin-bottom: 30px;
+    background-color: #0c0c0c;
+}
+
+.pts {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11em;
+    text-align: end;
+
+    position: relative;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+    margin-right: 37.2px;
+    color: red;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+
+    width: 18em;
+}
+
+button {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+
+    font-size: 2em;
+    border: 3px solid white;
+    border-radius: 10px;
+}
